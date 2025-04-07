@@ -13,6 +13,6 @@ venv/
 .envrc
 .DS_Store
 .git/
-.gitignore
-cloudbuild.yaml
-watcher/
+
+
+
