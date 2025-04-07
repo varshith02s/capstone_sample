@@ -14,5 +14,10 @@ venv/
 .DS_Store
 .git/
 .gitignore
-cloudbuild.yaml
-watcher/
+
+# Don't exclude these
+!cloudbuild.yaml
+!watcher/
+!app/
+!Dockerfile
+!requirements.txt
