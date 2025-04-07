@@ -8,6 +8,7 @@ steps:
 
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     args:
+      - gcloud
       - run
       - deploy
       - real-time-ingestor
@@ -17,7 +18,8 @@ steps:
       - --allow-unauthenticated
       - --service-account=835341756220-compute@developer.gserviceaccount.com
       - --set-env-vars=GCP_PROJECT=daring-atrium-454004-n4
+
 timeout: 900s
+
 options:
   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
-
