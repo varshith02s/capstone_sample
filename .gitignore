@@ -1,2 +1,10 @@
-"watcher/gcp_credentials.json" 
-"watcher/gcp_credentials.json" 
+# Ignore GCP service account keys
+watcher/gcp_credentials.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS-generated files
+.DS_Store
+Thumbs.db
