@@ -43,3 +43,7 @@ def pubsub_to_bq():
 
     print(f"Ingested to {full_table_id}: {message}")
     return "OK", 200
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
+
